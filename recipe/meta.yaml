@@ -10,7 +10,7 @@ source:
   sha256: 6c5c9d6df20c2d6f8dee547012b6daeee993e392e44c439cad2850114fcff778
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
   entry_points:
@@ -49,9 +49,11 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  doc_url: https://simplejson.readthedocs.io/
-  dev_url: https://github.com/simplejson/simplejson
+  doc_url: https://cachedjdk.github.io/cjdk/
+  dev_url: https://github.com/cachedjdk/cjdk
 
 extra:
   recipe-maintainers:
     - tlambert03
+    - ctrueden
+    - marktsuchida

@@ -9,9 +9,9 @@ Package license: MIT
 
 Summary: Auto-download JDK or JRE and run Java apps from Python or CLI
 
-Development: https://github.com/simplejson/simplejson
+Development: https://github.com/cachedjdk/cjdk
 
-Documentation: https://simplejson.readthedocs.io/
+Documentation: https://cachedjdk.github.io/cjdk/
 
 cjdk (for "cached JDK") is a Python package and command-line tool to download
 and run JDK (Java Development Kit) or JRE (Java Runtime Environment) distributions.
@@ -154,5 +154,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ctrueden](https://github.com/ctrueden/)
+* [@marktsuchida](https://github.com/marktsuchida/)
 * [@tlambert03](https://github.com/tlambert03/)
 
