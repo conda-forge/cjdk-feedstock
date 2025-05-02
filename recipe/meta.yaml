@@ -1,5 +1,5 @@
 {% set name = "cjdk" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6c5c9d6df20c2d6f8dee547012b6daeee993e392e44c439cad2850114fcff778
+  sha256: 908c93f305c14e9e9aca52512b8ab20f78c764928201fb2960c4d68dd9ad8735
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
   entry_points:
