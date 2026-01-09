@@ -20,13 +20,14 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - setuptools
-    - setuptools_scm
+    - hatchling
+    - hatch-vcs
   run:
     - python >={{ python_min }}
     - click >=8.0
     - progressbar2 >=4.0
     - requests >=2.24
+    - typing-extensions >=4.15.0
 
 test:
   imports:
